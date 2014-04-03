@@ -27,7 +27,6 @@ $wgExtensionCredits['specialpage'][] = array(
     'version' => '0.1',
     'author' => 'Vedmaka',
     'url' => '',
-    'descriptionmsg' => 'Views-credits',
 );
 
 /* Resource modules */
@@ -38,9 +37,6 @@ $wgResourceModules['ext.Views.main'] = array(
     'scripts' => '',
     'styles' => ''
 );
-
-/* Message Files */
-$wgExtensionMessagesFiles['Views'] = dirname( __FILE__ ) . '/Views.i18n.php';
 
 /* Autoload classes */
 $wgAutoloadClasses['Views'] = dirname( __FILE__ ) . '/Views.class.php';
