@@ -29,33 +29,6 @@ $wgExtensionCredits['specialpage'][] = array(
     'url' => '',
 );
 
-/* Resource modules */
-$wgResourceModules['ext.Views.main'] = array(
-    'localBasePath' => dirname( __FILE__ ) . '/',
-    'remoteExtPath' => 'Views/',
-    'group' => 'ext.Views',
-    'scripts' => '',
-    'styles' => ''
-);
-
 /* Autoload classes */
 $wgAutoloadClasses['Views'] = dirname( __FILE__ ) . '/Views.class.php';
-#$wgAutoloadClasses['ViewsHooks'] = dirname( __FILE__ ) . '/Views.hooks.php';
 
-/* ORM,MODELS */
-#$wgAutoloadClasses['Views_Model_'] = dirname( __FILE__ ) . '/includes/Views_Model_.php';
-
-/* ORM,PAGES */
-#$wgAutoloadClasses['ViewsSpecial'] = dirname( __FILE__ ) . '/pages/ViewsSpecial/ViewsSpecial.php';
-
-/* Rights */
-#$wgAvailableRights[] = 'example_rights';
-
-/* Permissions */
-#$wgGroupPermissions['sysop']['example_rights'] = true;
-
-/* Special Pages */
-#$wgSpecialPages['Views'] = 'ViewsSpecial';
-
-/* Hooks */
-#$wgHooks['example_hook'][] = 'ViewsHooks::onExampleHook';
